@@ -43,7 +43,7 @@ set foldmethod=syntax
     map <C-S-Left> :bN<CR>
     map <C-S-Right> :bn<CR>
 
-    map <leader>bd :bn<CR> :bd #<CR>
+    nnoremap <C-S-Down> :bn<CR> :bd #<CR>
     nnoremap <Leader>s :update<CR>
     nnoremap <leader>q :q<CR>
     nnoremap <leader>Q :q!<CR>
