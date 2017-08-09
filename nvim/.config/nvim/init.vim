@@ -232,10 +232,10 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'Townk/vim-autoclose'
     Plug 'alvan/vim-closetag'
     Plug 'tomtom/tcomment_vim'
-    Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-    Plug 'zchee/deoplete-go', { 'do': 'make'}
-    Plug 'ternjs/tern_for_vim', { 'for': ['javascript', 'javascript.jsx'] }
-    Plug 'carlitux/deoplete-ternjs', { 'for': ['javascript', 'javascript.jsx'] }
+    " Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+    " Plug 'zchee/deoplete-go', { 'do': 'make'}
+    " Plug 'ternjs/tern_for_vim', { 'for': ['javascript', 'javascript.jsx'] }
+    " Plug 'carlitux/deoplete-ternjs', { 'for': ['javascript', 'javascript.jsx'] }
 
     " Love-Hate group
     " Plug 'flazz/vim-colorschemes'
