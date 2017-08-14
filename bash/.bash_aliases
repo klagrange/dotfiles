@@ -13,6 +13,17 @@ export GIT_EDITOR=vim
 # alias salt-master="salt-master -c /home/klagrange/salt"
 # alias salt-minion="salt-minion -c /home/klagrange/salt"
 
+# Find
+function findX() {
+  if [ "$#" = 1 ]; then
+    find . -type f -exec grep "$1" {} /dev/null \;
+  elif [ "$#" = 2 ]; then
+    find "$1" -type f -exec grep "$2" {} /dev/null \;
+  fi
+}
+alias findMe="findX"
+
+
 # Android
 export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/tools
